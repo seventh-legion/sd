@@ -65,6 +65,7 @@ The [wildcards](wildcards) folder can be copied into your `extensions/sd-dynamic
   * [CnCNODAIv2](https://civitai.com/models/81160?modelVersionId=86094)
   * [ConstructionyardAIV3](https://civitai.com/models/53493/constructionyardai)
   * [CyberPunkAI](https://civitai.com/models/77121/neoncyberpunkai)
+  * [Detail Tweaker LoRA (细节调整LoRA)](https://civitai.com/models/58390/detail-tweaker-lora-lora)
   * [Dra9onScaleAI](https://civitai.com/models/55543?modelVersionId=70189)
   * [DwemerTech](https://civitai.com/models/65028/dwemer-tech-world-morph)
   * [Fire_VFX](https://civitai.com/models/9049/firevfx-create-more-consistent-fire)
