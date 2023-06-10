@@ -94,6 +94,7 @@ The [wildcards](wildcards) folder can be copied into your `extensions/sd-dynamic
   * [totempunkai_v20](https://civitai.com/models/71819/totempunk-redone)
   * [Unholy](https://civitai.com/models/76541/unholy)
   * [waterVFX](https://civitai.com/models/10750/watervfx-create-more-consistent-water-wip)
+  * [Wheelchair](https://civitai.com/models/75307/wheelchair)
   * [WitchcraftPunkAI](https://civitai.com/models/78280/witchcraftpunkai)
 * LyCORIS
   * [CulturePunkBundle](https://civitai.com/models/68253/culturepunkbundle)
