@@ -1,0 +1,83 @@
+renaissance
+victorian
+cottagecore
+high fantasy medieval
+{sinister|} {dark fantasy|(DarkFantasy:0.8)}
+<lora:runemagic:0.4>, {magic_circle,} Rune_Magic
+<lora:FrostRaceTech:0.5>, {cryogenic,|} frostracetech
+{<lora:GothicPunkAI:0.5>, gothicpunkai|<lora:GothicHorrorAI:0.5>, gothichorrorai}, gothic
+<lora:HorrorBundlev4:0.4>, BoneyardAI, bone
+<lora:1001ArabianNightsV3:0.6>, 1001ArabianNights
+<lora:MahabharataPunkAI:0.6>, MahabharataPunkAI
+<lora:CulturePunkBundle:0.5>, fairytaleai, fairytale
+<lora:WitchcraftPunkAI:0.5>, WitchcraftPunkAI
+<lora:AlchemyPunkAI:0.6>, alchemypunkai
+<lora:AngelicAI:0.5>, AngelicAI
+<lora:RootsBranchesAIv5:0.4>, RootsBranchesAI
+<lora:bronzepunkai:0.5>, bronzepunkai, bronze
+<lora:baroqueAI:0.3>, baroqueAI, baroque
+{<lora:ArtDecoAI:0.3>, ArtDecoAI,|} 1920s art deco
+<lora:FiveDecorsAIx3:0.4>, ivorygoldai, ivory-gold
+<lora:FiveDecorsAIx3:0.6> EbonyGoldAI
+<lora:smoke_model:0.4>, smokestyle
+<lora:GasLightPunkAIv3:0.5>, GasLampFantasyAI
+<lora:PunkBundleAI:0.4>, {steampunkai, steampunk|cogpunkai, cogpunk}
+<lora:PunkBundleAI:0.4>, dieselpunkai, {ww2|1940s} dieselpunk
+<lora:RetroFuturismAI:0.5>, RetroFuturismAI, retro-futurism
+<lora:1970RetroFuturism:0.6>, 1970retrofuturism, 1970s
+<lora:BiophyllTech:0.6>, {fully-organic,|bio,|} {bioluminescent,|} BiophyllTech|<lora:SolarpunkAI:0.5>, {SolarpunkAI|green-powered}, solarpunk
+<lora:PunkBundleAI:0.4>, {valvepunkai|teslapunkai}, retro-futuristic
+<lora:Neonpunkai-8:0.4>, Neonpunkai, neon
+<lora:CulturePunkBundle:0.3>, piratepunkai, pirate
+<lora:CulturePunkBundle:0.5>, vikingpunkai, norse viking
+<lora:CulturePunkBundle:0.5>, tikiai, tiki
+<lora:totempunkai_v20:0.5>, totempunkai,
+<lora:CulturePunkBundle:0.5>, zulupunkai, zulu
+<lora:lora:Dra9onScaleAI:0.5>, Dr490nSc4leAI
+<lora:StonepunkAI:0.6>, stonepunkAI, stone
+<lora:BohoAI:0.6>, bohoai, boho
+<lora:FiveDecorsAIx3:0.6>, stainedglassai, stained glass
+<lora:FiveDecorsAIx3:0.5>, crystallineAI, crystalline
+<lora:FiveDecorsAIx3:0.4>, GemstoneAI, gemstone
+<lora:FiveDecorsAIx3:0.6>, AzulejoAI, azulejo
+<lora:FiveDecorsAIx3:0.6>, CircuitBoardAI, electronic
+<lora:AntimatterTech-20:0.5>, antitech, antimatter
+<lora:NodesTech:0.6>, {data-space,|} {holographic,|} NodesTech
+<lora:GlassTech-20:0.6>, glasstech, glass
+<lora:DwemerTech:0.7> dwemertech{, ancient|}{, brass|}
+<lora:SamuraiPunkAIv3:0.6>, SamuraiPunkAI
+{<lora:HorrorBundlev4:0.4>, 1nf3rnalAI, infernal|<lora:MagmaTech:0.5>, {lava,|} MagmaTech}
+<lora:kVoidEnergy-000001:0.5>, V0id3nergy, void
+<lora:GlowingRunesAIV3:0.6>, {GlowingRunesAI_red|GlowingRunesAI_paleblue|GlowingRunesAI_green}, glowing runes
+<lora:postapocalypseAI:0.4>, postapoAI, post-apocalyptic {dark dystopian|}
+<lora:ConstructionyardAIV3:0.6>, constructionyardai
+<lora:TerranAIv2:0.5>, TerranAI, starcraft
+{<lora:CnCGDIAIv2:0.6>, CnCGDIAI|<lora:CnCNODAIv2:0.6>, CnCNODAI}
+<lora:Atompunk v.3:0.6>, atompunk
+{<lora:CyberPunkAI:0.6>, {neon,|} CyberpunkAI|<lora:Unholy:0.5>, Sc3pt4, scifi}
+<lora:GrecoRomaPunkAI:0.6>, {romapunkai|grecopunkai}
+<lora:CulturePunkBundle:0.5>, OldEgyptAI, ancient egyptian
+<lora:SovietPunkAIv2:0.6>, sovietpunkai, soviet {communist|}
+tribal celtic barbarian
+tribal {hawaian|mayan|aztec|polynesian}
+imperial chinese
+feudal japan
+1980s futuristic synthwave, bladerunner
+1980s synthwave
+fallout
+bioshock {infinite|}
+hogwarts
+21st century modern
+western frontier
+tropical jungle
+natural forest
+arid desert middle-eastern
+starwars
+startrek
+masseffect
+madmax
+warhammer 40k
+naval marine military
+militaristic authoritarian dictatorship
+dystopian futuristic
+(space_style:0.6), cosmic outer space
