@@ -22,6 +22,8 @@
 
 ## [Textual Inversions](https://github.com/civitai/civitai/wiki/How-to-use-models#textual-inversions)
 
+### Used
+
 * [verybadimagenegative_v1.3](https://civitai.com/models/11772?modelVersionId=25820)
 * [ng_deepnegative_v1_75t](https://civitai.com/models/4629?modelVersionId=5637)
 * [HorrorFantasy](https://civitai.com/models/82239?modelVersionId=87325)
@@ -37,6 +39,11 @@
 * [DarkFantasy](https://civitai.com/models/30287/dark-fantasy-style)
 * [Style-SwampMagic](https://civitai.com/models/54966/style-swamp-magic)
 
+### To do: Need to incorporate
+
+* [Amazing Embeddings - fcPortrait](https://civitai.com/models/81575?modelVersionId=86566)
+* [Amazing Embeddings - fcDetailPortrait](https://civitai.com/models/81575?modelVersionId=91967)
+* [Amazing Embeddings - fcHeatPortrait](https://civitai.com/models/81575?modelVersionId=91959)
 
 ## [Wildcards](https://github.com/AUTOMATIC1111/stable-diffusion-webui-wildcards)
 
