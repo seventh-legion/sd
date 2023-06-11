@@ -49,8 +49,9 @@
 
 The [wildcards](wildcards) folder can be copied into your `extensions/sd-dynamic-prompts/wildcards` folder.
 
-* [Fantasy Prompt Generator](https://civitai.com/models/45448/full-feature-character-prompts-fantasy) - I had to make some tweaks to the default `full-prompt-fantasy.txt` file as some of the LoRA's referenced were actually LyCORIS files.
-* `full-prompt-exalted.txt` is currently `full-prompt-fantasy.txt` minus entries that aren't particularly releveant to the Exalted setting. But I want to iterate on this file and make it our own.
+* [Fantasy Prompt Generator](https://civitai.com/models/45448/full-feature-character-prompts-fantasy) - I had to make some tweaks to the default [full-prompt-fantasy.txt](wildcards/full-prompt-fantasy.txt) file as some of the LoRA's referenced were actually LyCORIS files.
+* [full-prompt-exalted.txt](wildcards/full-prompt-exalted.txt) is currently `full-prompt-fantasy.txt` minus entries that aren't particularly releveant to the Exalted setting. But I want to iterate on this file and make it our own.
+* [severnaya-ffxiv.txt](wildcards/severnaya-ffxiv)
 
 ## LoRAs and LyCORIS
 
@@ -59,6 +60,7 @@ The [wildcards](wildcards) folder can be copied into your `extensions/sd-dynamic
 * LoRA
   * [1001ArabianNightsV3](https://civitai.com/models/69315/1001arabiannights)
   * [1970RetroFuturism](https://civitai.com/models/64235/1970retrofuturism)
+  * [AetherPunkAI](https://civitai.com/models/85036/aetherpunkai)
   * [AlchemyPunkAI](https://civitai.com/models/78766/alchemypunkai)
   * [AngelicAI](https://civitai.com/models/76229/angelicai)
   * [Antimatter - World Morph](https://civitai.com/models/59527/antimatter-world-morph)
@@ -114,7 +116,6 @@ The [wildcards](wildcards) folder can be copied into your `extensions/sd-dynamic
 
 These are currently not used in any of my wildcards.
 
-* [AetherPunkAI](https://civitai.com/models/85036/aetherpunkai)
 * [IceAI](https://civitai.com/models/86440/iceai)
 
 ## Settings Tweaks
@@ -127,6 +128,8 @@ Changes from default Stable Diffusion settings.
 * User interface
   * Quicksettings List
     * `sd_model_checkpoint sd_vae`
+* Dynamic Prompts
+  * Save template to metadata
 
 ## VAE
 
@@ -139,7 +142,8 @@ Changes from default Stable Diffusion settings.
 
 * **Model:** [Name](URL)
   * **VAE:** `vae-ft-mse-840000-ema-pruned` or `kl-f8-anime2.ckpt` or `None`
-  * **Dynamic Prompt:** `prompt`
+  * **Prompt:** `prompt`
+  * **Dynamic Prompt:** `dynamic prompt`
   * **Negative Prompt:** `negative prompt`
   * **Other Metadata:** `metadata`
 
@@ -189,3 +193,16 @@ Changes from default Stable Diffusion settings.
   * **Dynamic Prompt:** `prompt`
   * **Negative Prompt:** `negative prompt`
   * **Other Metadata:** `metadata`
+
+# FFXIV Characters
+
+## Severnaya
+
+<img align="right" width="256" height="384" src="examples/severnaya_ffxiv_BrickAndMortarMix.png">
+
+* **Model:** [BrickAndMortarMix](https://civitai.com/models/83867?modelVersionId=89141)
+  * **VAE:** `vae-ft-mse-840000-ema-pruned`
+  * **Prompt:** `(best quality, masterpiece:1.2), photorealistic,,strong shadows,aurate, 1girl, light smile, blond hair, long hair, purple eyes, gold shirt with suit and tie, skinny <lora:AetherPunkAI:0.5>, aetherpunkai, dance club, bright lights in background, neon colors in background, rainbow colors in background, casino`
+  * **Dynamic Prompt:** `(best quality, masterpiece:1.2), {0-2$$photorealistic|detailed face|strong shadows}, __severnaya-ffxiv__`
+  * **Negative Prompt:** `(worst quality, low quality:1.4), logo, watermark, signature, text, EasyNegative, (verybadimagenegative_v1.3:0.75)`
+  * **Other Metadata:** `Steps: 25, Sampler: DPM++ 2M SDE Karras, CFG scale: 7, Seed: 1091191745, Size: 512x768, Model hash: 4e2802c6f9, Model: brickandmortarmix_v10, Clip skip: 2, ADetailer model: face_yolov8n.pt, ADetailer confidence: 0.3, ADetailer dilate/erode: 4, ADetailer mask blur: 4, ADetailer denoising strength: 0.4, ADetailer inpaint only masked: True, ADetailer inpaint padding: 32, ADetailer model 2nd: hand_yolov8n.pt, ADetailer confidence 2nd: 0.3, ADetailer dilate/erode 2nd: 4, ADetailer mask blur 2nd: 4, ADetailer denoising strength 2nd: 0.4, ADetailer inpaint only masked 2nd: True, ADetailer inpaint padding 2nd: 32, ADetailer version: 23.6.2, ControlNet 0: "preprocessor: inpaint_only, model: control_v11p_sd15_inpaint [ebff9138], weight: 1, starting/ending: (0, 1), resize mode: Crop and Resize, pixel perfect: False, control mode: My prompt is more important, preprocessor params: (-1, 0.5, -1)", ControlNet 1: "preprocessor: reference_only, model: None, weight: 1, starting/ending: (0, 1), resize mode: Crop and Resize, pixel perfect: False, control mode: My prompt is more important, preprocessor params: (-1, 0.5, -1)", Lora hashes: "AetherPunkAI: 6e1ee98f9be8", Version: v1.3.2`
